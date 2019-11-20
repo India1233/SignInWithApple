@@ -49,6 +49,7 @@
 		D1E1F7E12385927600FF9170 /* SignInWithAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInWithAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E1F7E52385927600FF9170 /* SignInWithAppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleUITests.swift; sourceTree = "<group>"; };
 		D1E1F7E72385927600FF9170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E1F7F3238592DA00FF9170 /* SignInWithApple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInWithApple.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		D1E1F7C22385927000FF9170 /* SignInWithApple */ = {
 			isa = PBXGroup;
 			children = (
+				D1E1F7F3238592DA00FF9170 /* SignInWithApple.entitlements */,
 				D1E1F7C32385927000FF9170 /* AppDelegate.swift */,
 				D1E1F7C52385927000FF9170 /* SceneDelegate.swift */,
 				D1E1F7C72385927000FF9170 /* ViewController.swift */,
@@ -434,7 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignInWithApple/SignInWithApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = SignInWithApple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +455,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignInWithApple/SignInWithApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = SignInWithApple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
